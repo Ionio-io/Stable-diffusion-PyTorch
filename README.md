@@ -30,6 +30,11 @@ cd Stable-diffusion-PyTorch
 ```
 pip install -r requirements.txt
 ```
+
+### Download weights and tokenizer files:
+- Download `vocab.json` and `merges.txt` from https://huggingface.co/runwayml/stable-diffusion-v1-5/tree/main/tokenizer and save them in the data folder
+- Download `v1-5-pruned-emaonly.ckpt` from https://huggingface.co/runwayml/stable-diffusion-v1-5/tree/main and save it in the data folder
+  
 #### Usage
 To generate images with Stable Diffusion, use the following command:
 
@@ -38,16 +43,16 @@ python generate.py --prompt "A text description of the image you want to generat
 ```
 
 Advanced Options <br>
---uncond_prompt: Specify an unconditional prompt for more abstract generations. <br>
---strength: Control the influence of the conditional prompt on the generated image. <br>
---n_inference_steps: Specify the number of diffusion steps. <br>
-Refer to pipeline.py for more details and options. <br>
+`--uncond_prompt`: Specify an unconditional prompt for more abstract generations. <br>
+`--strength`: Control the influence of the conditional prompt on the generated image. <br>
+`--n_inference_steps`: Specify the number of diffusion steps. <br>
+Refer to `pipeline.py` for more details and options. <br>
 
 ### Customization
 This implementation allows for easy customization and extension. You can modify the generation parameters, integrate new models, or experiment with different diffusion techniques by editing the corresponding Python scripts.
 
 ### Contributing
-Contributions to the Stable Diffusion PyTorch project are welcome! Please refer to CONTRIBUTING.md for guidelines on how to contribute.
+Contributions to the Stable Diffusion PyTorch project are welcome! Please refer to `CONTRIBUTING.md` for guidelines on how to contribute.
 
 ### License
 This project is released under the MIT License. See LICENSE for more details.
