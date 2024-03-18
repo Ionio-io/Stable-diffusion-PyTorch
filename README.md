@@ -15,31 +15,33 @@ Before you begin, ensure you have the following installed:
 - PyTorch 1.8 or newer
 - CUDA Toolkit (for GPU acceleration)
 - Other dependencies listed in requirements.txt
+  
 ### Installation
-To set up the project, follow these steps:
+To set up the project, follow these steps:<br>
 
-Clone the repository:
+Clone the repository:<br>
 
-`
+```
 git clone https://github.com/Ionio-io/Stable-diffusion-PyTorch.git
 cd Stable-diffusion-PyTorch
-`
+```
 #### Install the required Python packages:
 
-`
+```
 pip install -r requirements.txt
-`
+```
 #### Usage
 To generate images with Stable Diffusion, use the following command:
 
-`
+```
 python generate.py --prompt "A text description of the image you want to generate"
-`
-Advanced Options
---uncond_prompt: Specify an unconditional prompt for more abstract generations.
---strength: Control the influence of the conditional prompt on the generated image.
---n_inference_steps: Specify the number of diffusion steps.
-Refer to pipeline.py for more details and options.
+```
+
+Advanced Options <br>
+--uncond_prompt: Specify an unconditional prompt for more abstract generations. <br>
+--strength: Control the influence of the conditional prompt on the generated image. <br>
+--n_inference_steps: Specify the number of diffusion steps. <br>
+Refer to pipeline.py for more details and options. <br>
 
 ### Customization
 This implementation allows for easy customization and extension. You can modify the generation parameters, integrate new models, or experiment with different diffusion techniques by editing the corresponding Python scripts.
