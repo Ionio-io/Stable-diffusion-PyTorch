@@ -7,7 +7,7 @@ Welcome to the Stable Diffusion PyTorch repository! This project leverages the p
 - Support for custom prompts and image editing
 - Efficient PyTorch implementation optimized for GPU acceleration
 - Extensible architecture for further customization and research
-- 
+  
 ### Prerequisites
 Before you begin, ensure you have the following installed:
 
@@ -50,9 +50,6 @@ Refer to `pipeline.py` for more details and options. <br>
 
 ### Customization
 This implementation allows for easy customization and extension. You can modify the generation parameters, integrate new models, or experiment with different diffusion techniques by editing the corresponding Python scripts.
-
-### Contributing
-Contributions to the Stable Diffusion PyTorch project are welcome! Please refer to `CONTRIBUTING.md` for guidelines on how to contribute.
 
 ### License
 This project is released under the MIT License. See LICENSE for more details.
