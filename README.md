@@ -55,4 +55,5 @@ This implementation allows for easy customization and extension. You can modify 
 This project is released under the MIT License. See LICENSE for more details.
 
 ### Acknowledgments
-Special thanks to the original creators of the Stable Diffusion model and the PyTorch community for their invaluable resources and support.
+Special thanks to the original creators of the Stable Diffusion model and the PyTorch community for their invaluable resources and support. Additional thanks to the YouTube channel by Umar Jamil.
+For a detailed explanation and a list of resources, please visit https://www.ionio.ai/blog/harnessing-stable-diffusion-a-revolutionary-guide-for-creators-and-business-innovators
