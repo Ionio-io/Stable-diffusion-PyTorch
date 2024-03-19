@@ -1,7 +1,8 @@
-torch
-numpy
-Pillow
-tqdm
-transformers
-tokenizers
-diffusers
+torch>=1.8.0
+numpy>=1.19.2
+Pillow>=8.0.1
+tqdm>=4.50.2
+transformers>=4.5.1
+tokenizers>=0.10.1
+diffusers>=0.1.0
+
